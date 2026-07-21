@@ -84,7 +84,6 @@ You should see a list of changed files.
 4. Keep the repository public when using GitHub Free for GitHub Pages.
 5. Publish it.
 
-![GitHub Desktop publishing screenshot placeholder](images/github-desktop-publish-placeholder.svg)
 
 ## Option B: Upload through the GitHub website
 
@@ -111,7 +110,6 @@ For a simple static site:
 
 GitHub Pages may take several minutes to publish the first version.
 
-![GitHub Pages settings screenshot placeholder](images/github-pages-settings-placeholder.svg)
 
 Open:
 
