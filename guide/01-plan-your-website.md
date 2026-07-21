@@ -125,7 +125,6 @@ The website should not duplicate your CV. The CV documents everything. The websi
 
 Most visitors will eventually open the website on a phone. Select images that can be cropped vertically as well as horizontally. Keep headings short enough to wrap cleanly. Avoid placing important information only inside a very wide figure.
 
-![Desktop and mobile views of the same example website](images/desktop-mobile-comparison.svg)
 
 ## Checkpoint
 

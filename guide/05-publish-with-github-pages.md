@@ -148,46 +148,6 @@ Official instructions:
 - [Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [Securing a Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 
-## Use a permanent QR redirect
-
-Printed QR codes cannot be edited after they are distributed. Instead of encoding the homepage directly, point the QR code to a redirect page such as:
-
-```text
-https://YOUR-USERNAME.github.io/go/website/
-```
-
-That redirect can send visitors to the current homepage or a future custom domain.
-
-The included example uses:
-
-- a JavaScript redirect;
-- an HTML meta refresh as a backup;
-- a visible fallback link;
-- UTM parameters for analytics;
-- `noindex` so the redirect utility page is not treated as a search result.
-
-See [Analytics and redirects](../code-notes/analytics-and-redirects.md).
-
-## Update `robots.txt` and `sitemap.xml`
-
-Replace the example URL in both files.
-
-`robots.txt`:
-
-```text
-User-agent: *
-Allow: /
-
-Sitemap: https://YOUR-USERNAME.github.io/sitemap.xml
-```
-
-`sitemap.xml`:
-
-```xml
-<loc>https://YOUR-USERNAME.github.io/</loc>
-```
-
-Update the `lastmod` date when making a substantial revision.
 
 ## Troubleshooting
 
@@ -235,7 +195,6 @@ You should have:
 - a successful Pages deployment;
 - a working website URL;
 - working images, links, and CV;
-- updated metadata, sitemap, and QR destination;
 - a simple process for committing future updates.
 
 [← Previous: Customize your content](04-customize-your-content.md) · [Return to the main guide](../README.md) · [Next: Search and indexing →](06-search-and-indexing.md)

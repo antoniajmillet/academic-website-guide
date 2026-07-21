@@ -4,7 +4,6 @@
 
 You do not need to become a web developer before editing an academic website. You do need to recognize which file controls the part you want to change.
 
-![The roles of HTML, CSS, and JavaScript](images/html-css-js.svg)
 
 ## The three main files
 

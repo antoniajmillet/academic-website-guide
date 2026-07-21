@@ -177,6 +177,10 @@ See [HTML overview](../code-notes/html-overview.md).
 
 ## 9. Test every link and screen size
 
+![Example mobile view](images/example-website-mobile.png)
+
+The mobile version should contain the same essential information as the desktop version, but the layout will usually stack into one column. Confirm that the name, research identity, portrait, buttons, navigation, and project cards remain readable.
+
 Before publishing, check:
 
 - navigation links;
@@ -194,7 +198,6 @@ Before publishing, check:
 
 ## Common problems
 
-![Example mobile view](images/example-website-mobile.png)
 
 ### The image does not appear
 

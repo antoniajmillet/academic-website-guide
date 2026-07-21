@@ -11,6 +11,9 @@ This repository teaches a practical workflow:
 3. Learn the purpose of the major sections of HTML, CSS, and JavaScript.
 4. Customize a working example with your own writing, images, links, and CV.
 5. Publish the website through GitHub Pages.
+6. Help search engines discover and index the website.
+7. Add Google Analytics and verify that it is collecting data.
+8. Create a permanent, trackable QR code for printed materials.
 
 The goal is not to copy another person's website. The goal is to recognize useful design patterns, understand how the code is organized, and rebuild those ideas around your own work and identity.
 
@@ -65,13 +68,18 @@ GitHub is not automatically the best option for everyone. It is the strongest op
 ```text
 academic-website-guide/
 ├── README.md
+├── CITATION.cff
 ├── SOURCES.md
+├── LICENSE.md
 ├── guide/
 │   ├── 01-plan-your-website.md
 │   ├── 02-find-design-inspiration.md
 │   ├── 03-view-and-understand-code.md
 │   ├── 04-customize-your-content.md
 │   ├── 05-publish-with-github-pages.md
+│   ├── 06-search-and-indexing.md
+│   ├── 07-add-google-analytics.md
+│   ├── 08-create-a-permanent-qr-code.md
 │   └── images/
 ├── code-notes/
 │   ├── html-overview.md
@@ -81,15 +89,14 @@ academic-website-guide/
 │   ├── project-cards.md
 │   ├── mobile-layout.md
 │   └── analytics-and-redirects.md
-├── example-website/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── robots.txt
-│   ├── sitemap.xml
-│   ├── assets/
-│   └── go/
-└── LICENSE.md
+└── example-website/
+    ├── index.html
+    ├── styles.css
+    ├── script.js
+    ├── robots.txt
+    ├── sitemap.xml
+    ├── assets/
+    └── go/
 ```
 
 ### `guide/`

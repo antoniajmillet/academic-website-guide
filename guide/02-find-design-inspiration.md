@@ -67,7 +67,6 @@ I do not want:
 
 ## View Page Source and Inspect are different
 
-![View Page Source compared with Inspect](images/view-source-vs-inspect.svg)
 
 ### View Page Source
 
