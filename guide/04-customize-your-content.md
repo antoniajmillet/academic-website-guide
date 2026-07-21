@@ -194,6 +194,8 @@ Before publishing, check:
 
 ## Common problems
 
+![Example mobile view](images/example-website-mobile.png)
+
 ### The image does not appear
 
 Check:
