@@ -1,0 +1,76 @@
+# Expandable Project Cards
+
+[Return to the main guide](../README.md) · [Open the HTML](../example-website/index.html) · [Open the CSS](../example-website/styles.css)
+
+The example uses native HTML `<details>` and `<summary>` elements. This creates an expandable card without requiring custom JavaScript.
+
+![An expanded project card](../guide/images/example-project-open.png)
+
+## Structure
+
+```html
+<details class="project-card">
+  <summary>
+    <div class="project-image">
+      <img src="..." alt="..." loading="lazy">
+    </div>
+
+    <div class="project-introduction">
+      <p class="project-status">Manuscript in preparation</p>
+      <h4>Project title</h4>
+      <p class="project-preview">Short preview...</p>
+      <span class="project-action">Read project</span>
+    </div>
+  </summary>
+
+  <div class="project-details prose">
+    <p>Longer explanation...</p>
+  </div>
+</details>
+```
+
+## Why `<summary>` matters
+
+The content inside `<summary>` is the clickable closed-card view.
+
+The content after `</summary>` appears when the card is opened.
+
+## Open-state CSS
+
+CSS can select the card only while it is open:
+
+```css
+.project-card[open] {
+  grid-column: 1 / -1;
+}
+```
+
+The action marker changes from plus to minus:
+
+```css
+.project-action::after {
+  content: " +";
+}
+
+.project-card[open] .project-action::after {
+  content: " −";
+}
+```
+
+## Add a project
+
+Copy one complete `<details>...</details>` block.
+
+Then replace:
+
+- image;
+- alt text;
+- status;
+- title;
+- preview;
+- detailed paragraphs;
+- optional project link.
+
+## Common mistake
+
+Do not copy only the visible text. Missing or duplicated closing tags can cause later projects or entire sections to appear inside the wrong card.
