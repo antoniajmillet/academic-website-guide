@@ -55,6 +55,9 @@ GitHub is not automatically the best option for everyone. It is the strongest op
 | [3. View and understand code](guide/03-view-and-understand-code.md) | Learn what HTML, CSS, and JavaScript control |
 | [4. Customize your content](guide/04-customize-your-content.md) | Turn the example into your own website |
 | [5. Publish with GitHub Pages](guide/05-publish-with-github-pages.md) | Upload, publish, update, and troubleshoot the site |
+| [6. Help search engines find your website](guide/06-search-and-indexing.md) | Add metadata, verify Search Console, and submit a sitemap |
+| [7. Add Google Analytics](guide/07-add-google-analytics.md) | Install GA4 and verify traffic collection |
+| [8. Create a permanent QR code](guide/08-create-a-permanent-qr-code.md) | Build a reusable redirect and track print visits |
 
 ## How this repository is organized
 

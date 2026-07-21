@@ -1,6 +1,6 @@
 # 5. Publish With GitHub Pages
 
-[← Previous: Customize your content](04-customize-your-content.md) · [Return to the main guide](../README.md)
+[← Previous: Customize your content](04-customize-your-content.md) · [Return to the main guide](../README.md) · [Next: Search and indexing →](06-search-and-indexing.md)
 
 This chapter uses a **user site**, which produces the clean address:
 
@@ -238,4 +238,4 @@ You should have:
 - updated metadata, sitemap, and QR destination;
 - a simple process for committing future updates.
 
-[← Previous: Customize your content](04-customize-your-content.md) · [Return to the main guide](../README.md)
+[← Previous: Customize your content](04-customize-your-content.md) · [Return to the main guide](../README.md) · [Next: Search and indexing →](06-search-and-indexing.md)
