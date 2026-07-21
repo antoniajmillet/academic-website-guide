@@ -191,7 +191,6 @@ Before publishing, check:
 - keyboard navigation;
 - expandable project cards.
 
-![Example mobile view](images/example-website-mobile.png)
 
 ## Common problems
 

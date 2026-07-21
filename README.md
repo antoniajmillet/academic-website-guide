@@ -14,7 +14,6 @@ This repository teaches a practical workflow:
 
 The goal is not to copy another person's website. The goal is to recognize useful design patterns, understand how the code is organized, and rebuild those ideas around your own work and identity.
 
-![Desktop view of the included example website](guide/images/example-website-desktop.png)
 
 ## Do you have to use GitHub?
 

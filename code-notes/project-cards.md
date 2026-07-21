@@ -4,7 +4,6 @@
 
 The example uses native HTML `<details>` and `<summary>` elements. This creates an expandable card without requiring custom JavaScript.
 
-![An expanded project card](../guide/images/example-project-open.png)
 
 ## Structure
 
