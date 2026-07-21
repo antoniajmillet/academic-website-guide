@@ -2,7 +2,7 @@
 
 [← Previous: Add Google Analytics](07-add-google-analytics.md) · [Return to the main guide](../README.md)
 
-A printed QR code cannot be changed once it has been distributed. Point it to a redirect page you control rather than directly to your homepage. This keeps the code usable if the destination changes and lets you track QR visits separately from other website traffic. As with any research or outreach project, it is useful to build measurable outcomes into the design from the beginning. For a website, that means knowing not only how many people visited, but how they found it (e.g., how many people actually scanned that code during August at your conference).
+A printed QR code cannot be changed once it has been distributed. Point it to a redirect page you control rather than directly to your homepage. This keeps the code usable if the destination changes and lets you track QR scans separately from other website traffic. As with any research or outreach project, it is useful to build measurable outcomes into the design from the beginning. For example, you may want to know how many people scanned a conference QR code during August compared with how many visitors found your website through a Google search, email signature, or another source.
 
 ```text
 QR code
