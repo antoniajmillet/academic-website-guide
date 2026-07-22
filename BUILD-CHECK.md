@@ -1,10 +1,12 @@
 # Build Check
 
 - Required guide files: present
-- Example HTML, CSS, and JavaScript: present
-- Example images and CV: present
-- Desktop illustrated preview: present
-- Mobile illustrated preview: present
-- Broken local references found in `example-website/index.html`: 0
+- Reference HTML, CSS, and JavaScript: present
+- Reference images and CV: present
+- Desktop website preview: present
+- Mobile website preview: present
+- Expanded project-card preview: present
+- Placeholder guide images: removed
+- Broken local references found in reference-website/index.html: 0
 
 No broken local references were detected.

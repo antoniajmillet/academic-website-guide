@@ -1,17 +1,11 @@
 # Guide Images
 
-The repository includes:
+This folder contains three finished previews from the working reference website:
 
-- screenshots generated from the working example website;
-- original diagrams explaining concepts;
-- clearly labeled placeholders for interface screenshots that should be captured from the current version of GitHub Desktop, GitHub Pages, or browser developer tools.
+- [`example-website-desktop.png`](example-website-desktop.png) — desktop layout;
+- [`example-website-mobile.png`](example-website-mobile.png) — mobile layout;
+- [`example-project-open.png`](example-project-open.png) — expanded project card.
 
-Interface screenshots become outdated as software changes. Replace a placeholder with a current screenshot while keeping the same filename so existing Markdown links continue to work.
+These images show what the finished reference website looks like. They contain Antonia J. Millet’s photograph and website content and are not generic template assets.
 
-Recommended screenshot format:
-
-- PNG for application interfaces;
-- SVG for diagrams;
-- descriptive filenames;
-- cropped to the relevant controls;
-- no private email, repository, token, or account information.
+The folder does not contain placeholder diagrams or fake interface screenshots.

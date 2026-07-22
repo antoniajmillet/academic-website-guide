@@ -1,8 +1,8 @@
 # About Section
 
-[Return to the main guide](../README.md) · [Open the HTML](../example-website/index.html)
+[Return to the main guide](../README.md) · [Open the HTML](../reference-website/index.html)
 
-The About section follows the same outer structure used by the other major bands.
+The About section follows the same outer structure used by the other major sections.
 
 ```html
 <section id="about" class="section-band about-band">
@@ -20,22 +20,17 @@ The About section follows the same outer structure used by the other major bands
 </section>
 ```
 
-## What each class does
+## What the classes do
 
-- `section-band`: gives every full-width section shared boundaries and scroll behavior;
-- `about-band`: assigns the About background color;
-- `content-section`: constrains the readable width and adds vertical spacing;
-- `section-title`: styles the heading and colored line;
-- `prose`: controls the paragraph width and typography.
+- `section-band`: provides shared full-width section behavior;
+- `about-band`: assigns the About section’s background styling;
+- `content-section`: limits the readable width and adds spacing;
+- `section-title`: styles the heading;
+- `prose`: controls paragraph width and typography.
 
 ## Safe changes
 
-You can replace:
-
-- the heading;
-- paragraph text;
-- links;
-- number of paragraphs.
+You can replace the heading, paragraph text, links, and number of paragraphs.
 
 ## Inline links
 
@@ -50,14 +45,4 @@ You can replace:
 </a>
 ```
 
-Keep link text specific. Avoid using the words `click here`.
-
-## Writing purpose
-
-A useful About section explains:
-
-- who you are now;
-- how your research direction developed;
-- what broad question connects your projects.
-
-It should not reproduce every position and award already listed in the CV.
+Use specific link text instead of “click here.”

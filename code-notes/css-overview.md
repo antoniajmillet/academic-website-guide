@@ -1,12 +1,10 @@
 # CSS Overview
 
-[Return to the main guide](../README.md) · [Open the complete `styles.css`](../example-website/styles.css)
+[Return to the main guide](../README.md) · [Open `styles.css`](../reference-website/styles.css)
 
 CSS controls appearance and layout.
 
 ## Color variables
-
-The file begins with reusable variables:
 
 ```css
 :root {
@@ -19,7 +17,7 @@ The file begins with reusable variables:
 }
 ```
 
-Using variables means one color can be changed in one location rather than in every individual rule.
+Variables let you change a reused color in one location.
 
 ## Selectors
 
@@ -30,65 +28,19 @@ Using variables means one color can be changed in one location rather than in ev
 }
 ```
 
-`.site-header` selects an HTML element with:
+`.site-header` selects an HTML element with `class="site-header"`. A class can be reused. A selector beginning with `#` targets an element with a matching `id`.
 
-```html
-class="site-header"
-```
-
-A class can be reused.
-
-```css
-#contact {
-  ...
-}
-```
-
-`#contact` would select an element with:
-
-```html
-id="contact"
-```
-
-An ID should identify one element.
-
-## Box model
-
-Spacing usually comes from:
-
-```css
-margin
-padding
-border
-```
+## Spacing
 
 - `margin`: space outside an element;
 - `padding`: space inside an element;
-- `border`: visible edge.
+- `border`: the visible edge.
 
 ## Layout
 
-The example uses both Flexbox and Grid.
-
-```css
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-}
-```
-
-```css
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-```
-
-Do not change several layout properties at once. Change one value, refresh, and compare.
+The reference site uses Flexbox and Grid. Change one layout property at a time, save, and compare the result.
 
 ## Responsive design
-
-Rules inside a media query apply only at certain screen widths.
 
 ```css
 @media (max-width: 600px) {
@@ -98,12 +50,12 @@ Rules inside a media query apply only at certain screen widths.
 }
 ```
 
-The example has desktop styles first, then tablet and mobile adjustments.
+Rules inside a media query apply only at certain screen widths.
 
 ## A useful beginner workflow
 
 1. Find the class in HTML.
 2. Search for the same class in CSS.
-3. Read every matching rule, including rules inside media queries.
+3. Read every matching rule, including mobile rules.
 4. Change one property.
-5. test desktop and mobile.
+5. Test desktop and mobile.

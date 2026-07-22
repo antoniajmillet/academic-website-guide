@@ -1,18 +1,10 @@
 # Mobile Layout
 
-[Return to the main guide](../README.md) · [Open the CSS](../example-website/styles.css) · [Open the JavaScript](../example-website/script.js)
+[Return to the main guide](../README.md) · [Open the CSS](../reference-website/styles.css) · [Open the JavaScript](../reference-website/script.js)
 
-Responsive design allows the same HTML to work across screen sizes.
+Responsive design allows the same HTML to work across different screen sizes.
 
 ## Media queries
-
-The example includes breakpoints for:
-
-- tablets;
-- small tablets;
-- phones.
-
-Example:
 
 ```css
 @media (max-width: 600px) {
@@ -28,48 +20,18 @@ Example:
 
 At phone width, multi-column sections become one column.
 
-## Mobile hero order
+## Mobile order and navigation
 
-The desktop hero places writing beside the portrait. The mobile rules stack:
-
-1. written identity;
-2. portrait;
-3. buttons.
-
-CSS grid areas control the order without duplicating the HTML.
-
-## Mobile navigation
-
-The navigation wraps and reduces its font size on smaller screens. When adding another navigation item, test whether the full header still fits without covering the page.
+The desktop opening section places writing beside the portrait. Mobile rules stack the writing, portrait, and buttons. Navigation may wrap or become smaller on narrow screens, so test the header after adding a new link.
 
 ## Header-height JavaScript
 
-The script measures the sticky header on screens up to 600 pixels wide:
+The script measures the mobile header and stores its height in a CSS variable. This keeps section headings from hiding beneath a wrapped sticky header.
 
-```javascript
-const height = isMobile
-  ? Math.ceil(header.getBoundingClientRect().height)
-  : 0;
-```
+## Test several sizes
 
-It stores the result in a CSS variable:
-
-```javascript
-document.documentElement.style.setProperty(
-  "--mobile-header-height",
-  `${height}px`
-);
-```
-
-This allows CSS to compensate for a header whose height changes when navigation links wrap.
-
-## Test more than one phone size
-
-Use browser developer tools to test:
-
-- approximately 320 pixels wide;
-- approximately 390 pixels wide;
+- a narrow phone around 320 pixels wide;
+- a common phone around 390 pixels wide;
 - a tablet width;
-- landscape orientation.
-
-Also test on a real phone before printing a QR code or sharing the site publicly.
+- landscape orientation;
+- a real phone before sharing the site publicly.

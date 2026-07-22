@@ -1,30 +1,22 @@
 # Navigation
 
-[Return to the main guide](../README.md) · [Open the HTML](../example-website/index.html)
-
-The navigation uses links to section IDs on the same page.
+[Return to the main guide](../README.md) · [Open the HTML](../reference-website/index.html)
 
 ## Internal section link
 
 ```html
 <a href="#research">Research</a>
-```
 
-This moves to:
-
-```html
 <section id="research" class="section-band research-band">
 ```
 
-The words after `#` and inside `id=""` must match exactly.
+The word after `#` and inside `id=""` must match exactly.
 
 ## External file link
 
-The CV opens a PDF:
-
 ```html
 <a
-  href="assets/documents/ajm_cv.pdf"
+  href="assets/documents/cv.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -34,40 +26,14 @@ The CV opens a PDF:
 
 When renaming the CV, update every link to it.
 
-## The site name
-
-```html
-<a class="site-name" href="#home">
-  Antonia J. Millet
-</a>
-```
-
-This acts as a link back to the top section.
-
 ## Adding a section
 
-To add a navigation destination:
-
 1. Add the section to HTML.
-
-```html
-<section id="teaching">
-  ...
-</section>
-```
-
-2. Add the link.
-
-```html
-<a href="#teaching">Teaching</a>
-```
-
-3. Add section styling in CSS when needed.
+2. Add a navigation link with the matching ID.
+3. Add CSS when needed.
 4. Test the link on desktop and mobile.
 
 ## Accessibility
-
-The navigation includes:
 
 ```html
 <nav class="site-navigation" aria-label="Main navigation">
